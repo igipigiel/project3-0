@@ -31,7 +31,6 @@ public :
     virtual int cat() {return 0;} ;
     string brandd() {return brand ;} ;
     int av() { return available ;} ;
-    friend ostream & operator << (ostream &,const product & ) ;
     virtual ~product() {} ;
     };
 
